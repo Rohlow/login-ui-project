@@ -1,0 +1,80 @@
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://static.clubs.nfl.com/image/private/f_auto/49ers/q1fglnuyjrzngdc5uag0);
+    
+}
+/* i set the container to hold a image and center the login box */
+
+
+.login-window   {
+    min-height: 400px;
+    min-width: 500px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color: gold;
+
+ /* in the login window i centered all
+ of the content. i added a box shadow. rounded my edges using border radius
+ i also made the background transparent then added blur filter
+ i made my text gold in color */
+    
+}
+.username, .password, input{ 
+    font-size: 17px;
+    height: 45px; 
+    width: 300px; 
+    border-radius: 40px;
+    text-indent: 10px;
+    color: black;     
+}
+/* for username and password i made the input
+boxes rounded using border radius
+i had to use text-index to slide my input text over some
+and set the color of text to black*/
+
+.login-box {
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    width: 80%;
+    height: 45px;
+    border-radius: 40px;
+
+}
+
+/* the login button i did the same and rounded it out
+adjusted my sizing i wanted i made it slightly larger than 
+the username and password inputs it just looked more appealing 
+*/
+
+::placeholder{
+    color: black;
+    
+}
+
+/* i made the place holders black it just made it pop more
+ */
+
+.login-box:hover {
+    background-color: green;
+    cursor: pointer;
+}
+    
+/* lastly i made my submit button green 
+when i hover over it. then i added pointer
+just for fun */
+
+
+    
+    
